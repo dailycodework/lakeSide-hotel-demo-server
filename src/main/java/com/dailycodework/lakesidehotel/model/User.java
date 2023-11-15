@@ -8,6 +8,7 @@ import org.hibernate.annotations.ManyToAny;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 
 /**
  * @author Simpson Alfred
@@ -31,5 +32,7 @@ public class User {
             joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
     inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private Collection<Role> roles = new HashSet<>();
+
+
 
 }
