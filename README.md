@@ -1,1 +1,1 @@
-# hotel-demo-project
+# lakeSide-hotel-demo-server
